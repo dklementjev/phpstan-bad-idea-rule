@@ -1,0 +1,20 @@
+{
+    "name": "dklementjev/phpstan-bad-idea-rule",
+    "description": "\"Bad idea\" is a conditional extension of @deprecated",
+    "type": "phpstan-extension",
+    "require-dev": {
+        "phpstan/phpstan": "^2.0.0",
+        "symfony/expression-language": "^6.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dklementjev\\Phpstan\\BadIdea\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Klementjev"
+        }
+    ]
+}

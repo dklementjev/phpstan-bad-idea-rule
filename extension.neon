@@ -1,0 +1,5 @@
+rules:
+  - Dklementjev\Phpstan\BadIdea\CustomRules\BadIdeaRule
+
+services:
+  - Symfony\Component\ExpressionLanguage\ExpressionLanguage
